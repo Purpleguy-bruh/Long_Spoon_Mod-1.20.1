@@ -9,12 +9,14 @@ import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import net.purpleguy.longspoon.LongSpoon;
+import net.purpleguy.longspoon.block.ModBlocks;
 
 public class ModItemGroups {
     public static final ItemGroup LONG_SPOON_GROUP = Registry.register(Registries.ITEM_GROUP, new Identifier(LongSpoon.MOD_ID, "long_spoon"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.long_spoon"))
                     .icon(() -> new ItemStack(ModItems.LONG_STICK)).entries((displayContext, entries) -> {
                         entries.add(ModItems.LONG_STICK);
+                        entries.add(ModBlocks.COMPRESSED_IRON_BLOCK);
                     }).build());
 
     public static void registerItemGroups(){

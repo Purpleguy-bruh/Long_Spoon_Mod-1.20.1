@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "longspoon:compressed_iron_block"
+    }
+  ],
+  "result": {
+    "item": "minecraft:iron_block",
+    "count": 9
+
+  }
+}

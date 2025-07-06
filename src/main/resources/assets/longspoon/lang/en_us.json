@@ -1,5 +1,6 @@
 {
   "item.longspoon.long_stick": "Long Stick",
-  "itemgroup.long_spoon": "Long Spoon Items"
+  "itemgroup.long_spoon": "Long Spoon Items",
+  "block.longspoon.compressed_iron_block": "Compressed Iron Block"
 
 }

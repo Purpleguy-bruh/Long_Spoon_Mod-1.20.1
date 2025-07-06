@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "longspoon:block/compressed_iron_block"
+  }
+
+}

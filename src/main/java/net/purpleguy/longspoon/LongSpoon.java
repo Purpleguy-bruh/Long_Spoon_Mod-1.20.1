@@ -2,6 +2,7 @@ package net.purpleguy.longspoon;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.purpleguy.longspoon.block.ModBlocks;
 import net.purpleguy.longspoon.item.ModItemGroups;
 import net.purpleguy.longspoon.item.ModItems;
 import org.slf4j.Logger;
@@ -15,6 +16,7 @@ public class LongSpoon implements ModInitializer {
 	public void onInitialize() {
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 
 	}
 }
