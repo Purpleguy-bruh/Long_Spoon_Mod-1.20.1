@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "  y",
+    " x ",
+    "x  "
+  ],
+  "key": {
+    "x": {
+      "item": "longspoon:long_stick"
+    },
+    "y": {
+      "item": "longspoon:compressed_iron_block"
+    }
+  },
+  "result": {
+
+  "item": "longspoon:long_spoon"
+  }
+}
