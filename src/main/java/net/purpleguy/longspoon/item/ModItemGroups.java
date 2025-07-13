@@ -17,6 +17,7 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.LONG_STICK)).entries((displayContext, entries) -> {
                         entries.add(ModItems.LONG_STICK);
                         entries.add(ModBlocks.COMPRESSED_IRON_BLOCK);
+                        entries.add(ModItems.LONG_SPOON);
                     }).build());
 
     public static void registerItemGroups(){

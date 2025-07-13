@@ -10,9 +10,12 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.purpleguy.longspoon.LongSpoon;
+import net.purpleguy.longspoon.item.custom.LongSpoonItem;
 
 public class ModItems {
     public static final Item LONG_STICK = registerItem("long_stick", new Item(new FabricItemSettings()));
+    public static final Item LONG_SPOON = registerItem("long_spoon",
+            new LongSpoonItem(new FabricItemSettings().maxDamage(100)));
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries){
         entries.add(LONG_STICK);
 
